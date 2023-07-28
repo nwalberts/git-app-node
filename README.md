@@ -1,3 +1,3 @@
-# Walker-Dog-Time-Pro-3000
+# DogWalkerzzz
 
-Invite only dog walker app. 
+This is a dog walking app for cool people
