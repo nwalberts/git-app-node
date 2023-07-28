@@ -23,6 +23,8 @@ const App = (props) => {
     fetchCurrentUser()
   }, [])
 
+  // yoyoyoyoyoyo
+
   return (
     <Router>
       <TopBar user={currentUser} />
