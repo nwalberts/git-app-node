@@ -29,8 +29,10 @@ const App = (props) => {
     <Router>
       <TopBar user={currentUser} />
       <Switch>
-        <Route exact path="/">
-          <h2>Hello from react</h2>
+        <Route exact path="/users">
+          <h2>Here are the users</h2>
+          <p>I am Lilly</p>
+          <p>I am Bhumi</p>
         </Route>
         <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} />
